@@ -1,0 +1,29 @@
+{
+  "Items": [
+    {
+      "id": 1,
+      "front": "ア",
+      "back": "A"
+    },
+    {
+      "id": 2,
+      "front": "イ",
+      "back": "I"
+    },
+    {
+      "id": 3,
+      "front": "ウ",
+      "back": "U"
+    },
+    {
+      "id": 4,
+      "front": "エ",
+      "back": "E"
+    },
+    {
+      "id": 5,
+      "front": "オ",
+      "back": "O"
+    }
+  ]
+}

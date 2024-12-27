@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgdwsf50i5sed"]
+
+[ext_resource type="Script" uid="uid://bs4taj45ek8yt" path="res://scenes/ui/button/signal_button.gd" id="1_8jofe"]
+
+[node name="SignalButton" type="Button"]
+offset_right = 16.0
+offset_bottom = 16.0
+text = "Default Text"
+script = ExtResource("1_8jofe")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

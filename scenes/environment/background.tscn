@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://lgb8vuvaeqbm"]
+
+[ext_resource type="Texture2D" uid="uid://bh5k4s18lxcbu" path="res://scenes/ui/hud/Mobile360x640.png" id="1_rxnwd"]
+[ext_resource type="PackedScene" uid="uid://bnqv4f1elxedd" path="res://scenes/environment/clouds/clouds.tscn" id="2_diaia"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.407843, 0.682353, 0.831373, 1)
+z_index = -1000
+texture = ExtResource("1_rxnwd")
+centered = false
+
+[node name="Clouds" parent="." instance=ExtResource("2_diaia")]

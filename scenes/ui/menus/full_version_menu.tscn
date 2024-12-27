@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://bmwne7ak2v022"]
+
+[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://scenes/ui/button/Button.png" id="1_knedy"]
+[ext_resource type="Script" uid="uid://dfjxmh745ohhs" path="res://scenes/ui/menus/full_version_menu.gd" id="1_psv24"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qd228"]
+texture = ExtResource("1_knedy")
+texture_margin_left = 8.51322
+texture_margin_top = 5.0
+texture_margin_right = 8.51385
+texture_margin_bottom = 11.0
+modulate_color = Color(0.839216, 0.141176, 0.0666667, 1)
+
+[node name="full_version_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_psv24")
+
+[node name="ButtonBack" type="Button" parent="."]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 255.0
+offset_right = 124.027
+offset_bottom = 293.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_qd228")
+theme_override_styles/hover = SubResource("StyleBoxTexture_qd228")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_qd228")
+text = "Back
+"
+
+[connection signal="pressed" from="ButtonBack" to="." method="_on_button_back_pressed"]

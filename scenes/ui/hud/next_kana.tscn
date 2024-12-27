@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl2pnv8ytukox"]
+
+[ext_resource type="Texture2D" uid="uid://c17nc4lqxwv2u" path="res://scenes/ui/hud/next_kana.tres" id="1_kkago"]
+
+[node name="NextKana" type="TextureRect"]
+texture = ExtResource("1_kkago")

@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="kana-balloons"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "Mobile")
+
+[audio]
+
+buses/default_bus_layout="res://config/default_bus_layout.tres"
+
+[autoload]
+
+SceneManager="*res://scenes/autoload/scene_manager/scene_manager.tscn"
+AudioManager="*res://scenes/autoload/audio_manager/audio_manager.tscn"
+MenuManager="*res://scenes/autoload/menus/menu_manager.tscn"
+SignalBus="*res://scenes/autoload/bus/signal_bus.gd"
+
+[display]
+
+window/size/viewport_width=180
+window/size/viewport_height=320
+window/size/window_width_override=360
+window/size/window_height_override=640
+window/stretch/mode="canvas_items"
+window/stretch/scale_mode="integer"
+window/handheld/orientation=1
+
+[gui]
+
+theme/custom="uid://bbjflb1iwi7x3"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

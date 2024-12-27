@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cfyptxny47y2r"]
+
+[ext_resource type="Texture2D" uid="uid://cndf7x714hvpo" path="res://scenes/ui/hud/GamePlay.png" id="1_ifh3h"]
+[ext_resource type="Script" uid="uid://bkt7tei7wuke2" path="res://scenes/ui/button/signal_texture_button.gd" id="2_lpcvj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mh6hd"]
+atlas = ExtResource("1_ifh3h")
+region = Rect2(161, 1, 14, 14)
+
+[node name="ButtonSettings" type="TextureButton"]
+offset_right = 14.0
+offset_bottom = 14.0
+texture_normal = SubResource("AtlasTexture_mh6hd")
+script = ExtResource("2_lpcvj")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

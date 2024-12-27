@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://br1s7fwfdj72k"]
+
+[ext_resource type="Texture2D" uid="uid://csflt0lytsdyk" path="res://scenes/environment/balloon/Balloon-Sheet.png" id="1_422he"]
+[ext_resource type="Script" uid="uid://cc7402xe17ff3" path="res://scenes/environment/balloon/balloon.gd" id="1_yo7gn"]
+[ext_resource type="PackedScene" uid="uid://bu5yaxi0iteic" path="res://scenes/environment/balloon/string.tscn" id="2_iiab6"]
+[ext_resource type="FontFile" uid="uid://cl6k3bkmrj24w" path="res://assets/fonts/NotoSansCJK-Regular.ttc" id="3_tsb8g"]
+
+[node name="Balloon" type="Node2D"]
+z_index = 5
+script = ExtResource("1_yo7gn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_422he")
+centered = false
+hframes = 4
+
+[node name="Label" type="Label" parent="Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15.0
+offset_top = -30.0
+offset_right = 17.0
+offset_bottom = 19.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_tsb8g")
+theme_override_font_sizes/font_size = 23
+text = "あ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="String" parent="." instance=ExtResource("2_iiab6")]
+position = Vector2(33, 110)

@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://cj4600fgd3me2"]
+
+[ext_resource type="PackedScene" uid="uid://lgb8vuvaeqbm" path="res://scenes/environment/background.tscn" id="1_1atlg"]
+[ext_resource type="PackedScene" uid="uid://bl2pnv8ytukox" path="res://scenes/ui/hud/next_kana.tscn" id="1_s0csi"]
+[ext_resource type="Script" uid="uid://cp2sodi82axk1" path="res://scenes/game_modes/balloon_blast.gd" id="1_xv5pw"]
+[ext_resource type="PackedScene" uid="uid://cfyptxny47y2r" path="res://scenes/ui/button/button_settings.tscn" id="2_rco4p"]
+
+[node name="BalloonBlast" type="Node2D"]
+script = ExtResource("1_xv5pw")
+
+[node name="Background" parent="." instance=ExtResource("1_1atlg")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MarginContainer"]
+layout_mode = 2
+
+[node name="ButtonSettings" parent="CanvasLayer/MarginContainer/VBoxContainer" instance=ExtResource("2_rco4p")]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+
+[node name="NextKana" parent="CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer/CenterContainer" instance=ExtResource("1_s0csi")]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4

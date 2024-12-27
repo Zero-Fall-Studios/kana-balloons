@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://buh6bxcocixpe"]
+
+[ext_resource type="Script" uid="uid://mte2cgqaa2mf" path="res://scenes/autoload/audio_manager/audio_manager.gd" id="1_l3ouf"]
+[ext_resource type="AudioStream" uid="uid://bpvi2xhimas1a" path="res://assets/audio/Kana Balloons.wav" id="2_u7gcg"]
+[ext_resource type="AudioStream" uid="uid://uy1tx23rt661" path="res://scenes/environment/balloon/balloon-pop1.wav" id="3_0opry"]
+[ext_resource type="AudioStream" uid="uid://c5ov4h18vtlm6" path="res://assets/audio/GameOver.wav" id="4_aj8ve"]
+
+[node name="AudioManager" type="Node2D"]
+script = ExtResource("1_l3ouf")
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_u7gcg")
+autoplay = true
+bus = &"Music"
+
+[node name="BalloonPop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_0opry")
+bus = &"Effects"
+
+[node name="GameOver" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_aj8ve")
+bus = &"Ambience"

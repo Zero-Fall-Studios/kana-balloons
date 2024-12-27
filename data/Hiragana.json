@@ -1,0 +1,539 @@
+{
+  "Items": [
+    {
+      "id": 1,
+      "front": "あ",
+      "back": "A"
+    },
+    {
+      "id": 2,
+      "front": "い",
+      "back": "I"
+    },
+    {
+      "id": 3,
+      "front": "う",
+      "back": "U"
+    },
+    {
+      "id": 4,
+      "front": "え",
+      "back": "E"
+    },
+    {
+      "id": 5,
+      "front": "お",
+      "back": "O"
+    },
+    {
+      "id": 6,
+      "front": "か",
+      "back": "KA"
+    },
+    {
+      "id": 7,
+      "front": "き",
+      "back": "KI"
+    },
+    {
+      "id": 8,
+      "front": "く",
+      "back": "KU"
+    },
+    {
+      "id": 9,
+      "front": "け",
+      "back": "KE"
+    },
+    {
+      "id": 10,
+      "front": "こ",
+      "back": "KO"
+    },
+    {
+      "id": 11,
+      "front": "さ",
+      "back": "SA"
+    },
+    {
+      "id": 12,
+      "front": "し",
+      "back": "SHI"
+    },
+    {
+      "id": 13,
+      "front": "す",
+      "back": "SU"
+    },
+    {
+      "id": 14,
+      "front": "せ",
+      "back": "SE"
+    },
+    {
+      "id": 15,
+      "front": "そ",
+      "back": "SO"
+    },
+    {
+      "id": 16,
+      "front": "た",
+      "back": "TA"
+    },
+    {
+      "id": 17,
+      "front": "ち",
+      "back": "CHI"
+    },
+    {
+      "id": 18,
+      "front": "つ",
+      "back": "TSU"
+    },
+    {
+      "id": 19,
+      "front": "て",
+      "back": "TE"
+    },
+    {
+      "id": 20,
+      "front": "と",
+      "back": "TO"
+    },
+    {
+      "id": 21,
+      "front": "な",
+      "back": "NA"
+    },
+    {
+      "id": 22,
+      "front": "に",
+      "back": "NI"
+    },
+    {
+      "id": 23,
+      "front": "ぬ",
+      "back": "NU"
+    },
+    {
+      "id": 24,
+      "front": "ね",
+      "back": "NE"
+    },
+    {
+      "id": 25,
+      "front": "の",
+      "back": "NO"
+    },
+    {
+      "id": 26,
+      "front": "は",
+      "back": "HA"
+    },
+    {
+      "id": 27,
+      "front": "ひ",
+      "back": "HI"
+    },
+    {
+      "id": 28,
+      "front": "ふ",
+      "back": "FU"
+    },
+    {
+      "id": 29,
+      "front": "へ",
+      "back": "HE"
+    },
+    {
+      "id": 30,
+      "front": "ほ",
+      "back": "HO"
+    },
+    {
+      "id": 31,
+      "front": "ま",
+      "back": "MA"
+    },
+    {
+      "id": 32,
+      "front": "み",
+      "back": "MI"
+    },
+    {
+      "id": 33,
+      "front": "む",
+      "back": "MU"
+    },
+    {
+      "id": 34,
+      "front": "め",
+      "back": "ME"
+    },
+    {
+      "id": 35,
+      "front": "も",
+      "back": "MO"
+    },
+    {
+      "id": 36,
+      "front": "や",
+      "back": "YA"
+    },
+    {
+      "id": 37,
+      "front": "ゆ",
+      "back": "YU"
+    },
+    {
+      "id": 38,
+      "front": "よ",
+      "back": "YO"
+    },
+    {
+      "id": 39,
+      "front": "ら",
+      "back": "RA"
+    },
+    {
+      "id": 40,
+      "front": "り",
+      "back": "RI"
+    },
+    {
+      "id": 41,
+      "front": "る",
+      "back": "RU"
+    },
+    {
+      "id": 42,
+      "front": "れ",
+      "back": "RE"
+    },
+    {
+      "id": 43,
+      "front": "ろ",
+      "back": "RO"
+    },
+    {
+      "id": 44,
+      "front": "わ",
+      "back": "WA"
+    },
+    {
+      "id": 45,
+      "front": "を",
+      "back": "WO"
+    },
+    {
+      "id": 46,
+      "front": "ん",
+      "back": "N"
+    },
+    {
+      "id": 47,
+      "front": "が",
+      "back": "GA"
+    },
+    {
+      "id": 48,
+      "front": "ぎ",
+      "back": "GI"
+    },
+    {
+      "id": 49,
+      "front": "ぐ",
+      "back": "GU"
+    },
+    {
+      "id": 50,
+      "front": "げ",
+      "back": "GE"
+    },
+    {
+      "id": 51,
+      "front": "ご",
+      "back": "GO"
+    },
+    {
+      "id": 52,
+      "front": "ざ",
+      "back": "ZA"
+    },
+    {
+      "id": 53,
+      "front": "じ",
+      "back": "JI"
+    },
+    {
+      "id": 54,
+      "front": "ず",
+      "back": "ZU"
+    },
+    {
+      "id": 55,
+      "front": "ぜ",
+      "back": "ZE"
+    },
+    {
+      "id": 56,
+      "front": "ぞ",
+      "back": "ZO"
+    },
+    {
+      "id": 57,
+      "front": "だ",
+      "back": "DA"
+    },
+    {
+      "id": 58,
+      "front": "ぢ",
+      "back": "JI"
+    },
+    {
+      "id": 59,
+      "front": "づ",
+      "back": "DZU"
+    },
+    {
+      "id": 60,
+      "front": "で",
+      "back": "DE"
+    },
+    {
+      "id": 61,
+      "front": "ど",
+      "back": "DO"
+    },
+    {
+      "id": 62,
+      "front": "ば",
+      "back": "BA"
+    },
+    {
+      "id": 63,
+      "front": "び",
+      "back": "BI"
+    },
+    {
+      "id": 64,
+      "front": "ぶ",
+      "back": "BU"
+    },
+    {
+      "id": 65,
+      "front": "べ",
+      "back": "BE"
+    },
+    {
+      "id": 66,
+      "front": "ぼ",
+      "back": "BO"
+    },
+    {
+      "id": 67,
+      "front": "ぱ",
+      "back": "PA"
+    },
+    {
+      "id": 68,
+      "front": "ぴ",
+      "back": "PI"
+    },
+    {
+      "id": 69,
+      "front": "ぷ",
+      "back": "PU"
+    },
+    {
+      "id": 70,
+      "front": "ぺ",
+      "back": "PE"
+    },
+    {
+      "id": 71,
+      "front": "ぽ",
+      "back": "PO"
+    },
+    {
+      "id": 72,
+      "front": "きゃ",
+      "back": "KYA"
+    },
+    {
+      "id": 73,
+      "front": "きゅ",
+      "back": "KYU"
+    },
+    {
+      "id": 74,
+      "front": "きょ",
+      "back": "KYO"
+    },
+    {
+      "id": 75,
+      "front": "しゃ",
+      "back": "SHA"
+    },
+    {
+      "id": 76,
+      "front": "しゅ",
+      "back": "SHU"
+    },
+    {
+      "id": 77,
+      "front": "しょ",
+      "back": "SHO"
+    },
+    {
+      "id": 78,
+      "front": "ちゃ",
+      "back": "CHA"
+    },
+    {
+      "id": 79,
+      "front": "ちゅ",
+      "back": "CHU"
+    },
+    {
+      "id": 80,
+      "front": "ちょ",
+      "back": "CHO"
+    },
+    {
+      "id": 81,
+      "front": "にゃ",
+      "back": "NYA"
+    },
+    {
+      "id": 82,
+      "front": "にゅ",
+      "back": "NYU"
+    },
+    {
+      "id": 83,
+      "front": "にょ",
+      "back": "NYO"
+    },
+    {
+      "id": 84,
+      "front": "ひゃ",
+      "back": "HYA"
+    },
+    {
+      "id": 85,
+      "front": "ひゅ",
+      "back": "HYU"
+    },
+    {
+      "id": 86,
+      "front": "ひょ",
+      "back": "HYO"
+    },
+    {
+      "id": 87,
+      "front": "みゃ",
+      "back": "MYA"
+    },
+    {
+      "id": 88,
+      "front": "みゅ",
+      "back": "MYU"
+    },
+    {
+      "id": 89,
+      "front": "みょ",
+      "back": "MYO"
+    },
+    {
+      "id": 90,
+      "front": "りゃ",
+      "back": "RYA"
+    },
+    {
+      "id": 91,
+      "front": "りゅ",
+      "back": "RYU"
+    },
+    {
+      "id": 92,
+      "front": "りょ",
+      "back": "RYO"
+    },
+    {
+      "id": 93,
+      "front": "ぎゃ",
+      "back": "GYA"
+    },
+    {
+      "id": 94,
+      "front": "ぎゅ",
+      "back": "GYU"
+    },
+    {
+      "id": 95,
+      "front": "ぎょ",
+      "back": "GYO"
+    },
+    {
+      "id": 96,
+      "front": "じゃ",
+      "back": "JA"
+    },
+    {
+      "id": 97,
+      "front": "じゅ",
+      "back": "JU"
+    },
+    {
+      "id": 98,
+      "front": "じょ",
+      "back": "JO"
+    },
+    {
+      "id": 99,
+      "front": "ぢゃ",
+      "back": "JA"
+    },
+    {
+      "id": 100,
+      "front": "ぢゅ",
+      "back": "JU"
+    },
+    {
+      "id": 101,
+      "front": "ぢょ",
+      "back": "JO"
+    },
+    {
+      "id": 102,
+      "front": "びゃ",
+      "back": "BYA"
+    },
+    {
+      "id": 103,
+      "front": "びゅ",
+      "back": "BYU"
+    },
+    {
+      "id": 104,
+      "front": "びょ",
+      "back": "BYO"
+    },
+    {
+      "id": 105,
+      "front": "ぴゃ",
+      "back": "PYA"
+    },
+    {
+      "id": 106,
+      "front": "ぴゅ",
+      "back": "PYU"
+    },
+    {
+      "id": 107,
+      "front": "ぴょ",
+      "back": "PYO"
+    }
+  ]
+}
