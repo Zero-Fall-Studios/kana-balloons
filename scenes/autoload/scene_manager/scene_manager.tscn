@@ -594,7 +594,6 @@ _data = {
 
 [node name="SceneManager" type="Node2D"]
 script = ExtResource("1_42i0j")
-initial_transition = ""
 default_transition = "BalloonRising"
 
 [node name="Brand" type="CanvasLayer" parent="."]
