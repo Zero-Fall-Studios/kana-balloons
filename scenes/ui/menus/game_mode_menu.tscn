@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://galnhrdm7735"]
 
 [ext_resource type="PackedScene" uid="uid://cfyptxny47y2r" path="res://scenes/ui/button/button_settings.tscn" id="1_2ji6g"]
-[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://scenes/ui/button/Button.png" id="1_a8jsx"]
+[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://assets/ui/Button.png" id="1_a8jsx"]
 [ext_resource type="Script" uid="uid://2y3avntyhasj" path="res://scenes/ui/menus/menu.gd" id="1_f1agi"]
-[ext_resource type="Texture2D" uid="uid://cndf7x714hvpo" path="res://scenes/ui/hud/GamePlay.png" id="2_f1agi"]
+[ext_resource type="Texture2D" uid="uid://cndf7x714hvpo" path="res://assets/ui/GamePlay.png" id="2_f1agi"]
 [ext_resource type="PackedScene" uid="uid://cgdwsf50i5sed" path="res://scenes/ui/button/signal_button.tscn" id="2_fa2i5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mh6hd"]

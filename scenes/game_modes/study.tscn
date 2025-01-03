@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://bt4psrm3kft"]
+
+[ext_resource type="Script" uid="uid://c8lhfbtv1s1q1" path="res://scenes/game_modes/study.gd" id="1_pqdut"]
+[ext_resource type="PackedScene" uid="uid://lgb8vuvaeqbm" path="res://scenes/environment/background.tscn" id="2_pqdut"]
+[ext_resource type="PackedScene" uid="uid://cs4ud4gsovvjx" path="res://scenes/autoload/hud_manager/hud_manager.tscn" id="3_m0mje"]
+[ext_resource type="PackedScene" uid="uid://dlov7cemqbyot" path="res://scenes/entities/balloon/balloon_spawner.tscn" id="3_pyxdy"]
+
+[node name="Study" type="Node2D" node_paths=PackedStringArray("balloon_spawners")]
+script = ExtResource("1_pqdut")
+balloon_spawners = [NodePath("BalloonSpawner"), NodePath("BalloonSpawner2"), NodePath("BalloonSpawner3")]
+
+[node name="Background" parent="." instance=ExtResource("2_pqdut")]
+
+[node name="HudManager" parent="." instance=ExtResource("3_m0mje")]
+
+[node name="RiseLimit" type="Node2D" parent="."]
+position = Vector2(0, 107)
+
+[node name="BalloonSpawner" parent="." node_paths=PackedStringArray("rise_limit") instance=ExtResource("3_pyxdy")]
+position = Vector2(30, 400)
+rise_limit = NodePath("../RiseLimit")
+
+[node name="BalloonSpawner2" parent="." node_paths=PackedStringArray("rise_limit") instance=ExtResource("3_pyxdy")]
+position = Vector2(90, 400)
+rise_limit = NodePath("../RiseLimit")
+
+[node name="BalloonSpawner3" parent="." node_paths=PackedStringArray("rise_limit") instance=ExtResource("3_pyxdy")]
+position = Vector2(150, 400)
+rise_limit = NodePath("../RiseLimit")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0

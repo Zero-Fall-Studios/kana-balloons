@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlov7cemqbyot"]
+
+[ext_resource type="Script" uid="uid://cy6myw34e4due" path="res://scenes/entities/balloon/balloon_spawner.gd" id="1_vivtf"]
+[ext_resource type="PackedScene" uid="uid://br1s7fwfdj72k" path="res://scenes/entities/balloon/balloon.tscn" id="2_lo51f"]
+
+[node name="BalloonSpawner" type="Node2D"]
+script = ExtResource("1_vivtf")
+balloon = ExtResource("2_lo51f")

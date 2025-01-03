@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpqjuibcolkgk"]
+
+[ext_resource type="Script" uid="uid://bs4taj45ek8yt" path="res://scenes/ui/button/signal_button.gd" id="2_8gmev"]
+
+[node name="BackButton" type="Button"]
+offset_right = 110.0
+offset_bottom = 32.0
+theme_type_variation = &"RedButton"
+text = "Back"
+script = ExtResource("2_8gmev")
+signal_name = "ui_back"
+metadata/_custom_type_script = ExtResource("2_8gmev")

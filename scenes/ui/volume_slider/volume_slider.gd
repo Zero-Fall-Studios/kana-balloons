@@ -3,8 +3,8 @@ extends Control
 @export var bus_index: int = 0
 @export var label_text: String = ""
 
-@onready var label: Label = $Label
-@onready var slider: Slider = $HSlider
+@export var label: Label
+@export var slider: Slider
 
 func _ready():
 	label.text = label_text

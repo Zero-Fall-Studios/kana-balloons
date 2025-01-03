@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bmwne7ak2v022"]
 
-[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://scenes/ui/button/Button.png" id="1_knedy"]
+[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://assets/ui/Button.png" id="1_knedy"]
 [ext_resource type="Script" uid="uid://dfjxmh745ohhs" path="res://scenes/ui/menus/full_version_menu.gd" id="1_psv24"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qd228"]

@@ -1,20 +1,39 @@
-[gd_scene load_steps=5 format=3 uid="uid://buh6bxcocixpe"]
+[gd_scene load_steps=9 format=3 uid="uid://buh6bxcocixpe"]
 
 [ext_resource type="Script" uid="uid://mte2cgqaa2mf" path="res://scenes/autoload/audio_manager/audio_manager.gd" id="1_l3ouf"]
 [ext_resource type="AudioStream" uid="uid://bpvi2xhimas1a" path="res://assets/audio/Kana Balloons.wav" id="2_u7gcg"]
-[ext_resource type="AudioStream" uid="uid://uy1tx23rt661" path="res://scenes/environment/balloon/balloon-pop1.wav" id="3_0opry"]
+[ext_resource type="AudioStream" uid="uid://uy1tx23rt661" path="res://assets/audio/balloon-pop1.wav" id="3_0opry"]
 [ext_resource type="AudioStream" uid="uid://c5ov4h18vtlm6" path="res://assets/audio/GameOver.wav" id="4_aj8ve"]
+[ext_resource type="AudioStream" uid="uid://ba6xurdqngr4s" path="res://assets/audio/balloon-pop2.wav" id="4_oppep"]
+[ext_resource type="AudioStream" uid="uid://cqj0ayexf0kqv" path="res://assets/audio/balloon-pop3.wav" id="5_yugto"]
+[ext_resource type="AudioStream" uid="uid://dik63c0nfwpld" path="res://assets/audio/Correct.wav" id="6_1kxiy"]
+[ext_resource type="AudioStream" uid="uid://csinu85qo04jc" path="res://assets/audio/Wrong.wav" id="7_lkvbu"]
 
 [node name="AudioManager" type="Node2D"]
 script = ExtResource("1_l3ouf")
 
 [node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_u7gcg")
-autoplay = true
 bus = &"Music"
 
 [node name="BalloonPop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_0opry")
+bus = &"Effects"
+
+[node name="BalloonPop2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_oppep")
+bus = &"Effects"
+
+[node name="BalloonPop3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_yugto")
+bus = &"Effects"
+
+[node name="Correct" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_1kxiy")
+bus = &"Effects"
+
+[node name="Wrong" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_lkvbu")
 bus = &"Effects"
 
 [node name="GameOver" type="AudioStreamPlayer" parent="."]

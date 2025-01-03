@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://difyjrrth75hw"]
 
-[ext_resource type="Texture2D" uid="uid://cndf7x714hvpo" path="res://scenes/ui/hud/GamePlay.png" id="1_6i027"]
+[ext_resource type="Texture2D" uid="uid://cndf7x714hvpo" path="res://assets/ui/GamePlay.png" id="1_6i027"]
 [ext_resource type="Script" uid="uid://bkt7tei7wuke2" path="res://scenes/ui/button/signal_texture_button.gd" id="2_5rwkt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mh6hd"]

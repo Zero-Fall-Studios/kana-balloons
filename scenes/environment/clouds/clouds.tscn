@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bnqv4f1elxedd"]
 
-[ext_resource type="Texture2D" uid="uid://mpp44jl3blhp" path="res://scenes/environment/clouds/Clouds-Big.png" id="2_5j6mb"]
-[ext_resource type="Texture2D" uid="uid://bn44fttkabyog" path="res://scenes/environment/clouds/Clouds-White.png" id="3_0kxm0"]
+[ext_resource type="Texture2D" uid="uid://mpp44jl3blhp" path="res://assets/environment/Clouds-Big.png" id="2_5j6mb"]
+[ext_resource type="Texture2D" uid="uid://bn44fttkabyog" path="res://assets/environment/Clouds-White.png" id="3_0kxm0"]
 
 [node name="Clouds" type="Node2D"]
 

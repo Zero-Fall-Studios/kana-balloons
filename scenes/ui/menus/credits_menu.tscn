@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://2y3avntyhasj" path="res://scenes/ui/menus/menu.gd" id="1_scm5y"]
 [ext_resource type="PackedScene" uid="uid://cgdwsf50i5sed" path="res://scenes/ui/button/signal_button.tscn" id="2_scm5y"]
-[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://scenes/ui/button/Button.png" id="4_1ih4j"]
+[ext_resource type="Texture2D" uid="uid://bjne53xvfww4c" path="res://assets/ui/Button.png" id="4_1ih4j"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sqv04"]
 texture = ExtResource("4_1ih4j")

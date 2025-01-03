@@ -37,6 +37,10 @@ func convert_percent_to_db(percent):
 func play(node_name: String):
 	audio[node_name].play()
 
+func play_random(names):
+	var random_index = randi_range(0, names.size() - 1)
+	audio[names[random_index]].play()
+
 func stop(node_name: String):
 	audio[node_name].stop()
 

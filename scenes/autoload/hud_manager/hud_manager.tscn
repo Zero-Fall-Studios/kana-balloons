@@ -1,0 +1,70 @@
+[gd_scene load_steps=5 format=3 uid="uid://cs4ud4gsovvjx"]
+
+[ext_resource type="Script" uid="uid://c8wbfqp4accut" path="res://scenes/autoload/hud_manager/hud_manager.gd" id="1_xxvil"]
+[ext_resource type="Texture2D" uid="uid://cndf7x714hvpo" path="res://assets/ui/GamePlay.png" id="2_s5utl"]
+[ext_resource type="PackedScene" uid="uid://bl2pnv8ytukox" path="res://scenes/ui/hud/next_kana.tscn" id="3_j2i3k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2i3k"]
+atlas = ExtResource("2_s5utl")
+region = Rect2(161, 1, 14, 14)
+
+[node name="HudManager" type="Node2D" node_paths=PackedStringArray("character_label")]
+script = ExtResource("1_xxvil")
+character_label = NodePath("CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/NextKana/Label")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MarginContainer"]
+layout_mode = 2
+
+[node name="PauseButton" type="TextureButton" parent="CanvasLayer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+texture_normal = SubResource("AtlasTexture_j2i3k")
+
+[node name="ExpandContainer" type="HBoxContainer" parent="CanvasLayer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+
+[node name="NextKana" parent="CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer/CenterContainer" instance=ExtResource("3_j2i3k")]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="CanvasLayer/MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/NextKana"]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -6.0
+offset_top = 5.0
+offset_right = 10.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 64
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="CanvasLayer/MarginContainer/VBoxContainer/PauseButton" to="." method="_on_pause_button_pressed"]
